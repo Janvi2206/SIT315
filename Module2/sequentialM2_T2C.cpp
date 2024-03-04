@@ -49,9 +49,7 @@ int main() {
 
     auto stop = high_resolution_clock::now(); 
     auto duration = duration_cast<milliseconds>(stop - start);
-
-  
+    
     cout << "Execution time: " << duration.count() << " milliseconds" << endl;
-
     return 0;
 }
